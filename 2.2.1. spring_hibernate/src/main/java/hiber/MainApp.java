@@ -23,10 +23,10 @@ public class MainApp {
         Car car4 = new Car("BWM", 5);
 
 
-        userService.add(new User("Nikolay", "Belov", "user1@mail.ru", car1));
-        userService.add(new User("Artem", "Babkin", "user2@mail.ru", car2));
-        userService.add(new User("Kirill", "Razboykim", "user3@mail.ru", car3));
-        userService.add(new User("Roman", "Romanov", "user4@mail.ru", car4));
+        userService.addUser(new User("Nikolay", "Belov", "user1@mail.ru", car1));
+        userService.addUser(new User("Artem", "Babkin", "user2@mail.ru", car2));
+        userService.addUser(new User("Kirill", "Razboykim", "user3@mail.ru", car3));
+        userService.addUser(new User("Roman", "Romanov", "user4@mail.ru", car4));
 
 
         List<User> users = userService.listUsers();
